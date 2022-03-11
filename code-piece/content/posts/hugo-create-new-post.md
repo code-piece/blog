@@ -1,5 +1,5 @@
 ---
-title: "Create new post in Hugo"
+title: "[Hugo] Create new post"
 date: 2022-03-09T23:33:08+07:00
 draft: false
 ---
