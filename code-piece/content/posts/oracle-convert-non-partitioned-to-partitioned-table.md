@@ -4,11 +4,11 @@ date: 2022-03-20T23:19:04+07:00
 draft: false
 ---
 
-A non-partitioned table can be converted to a partitioned table with a <code>MODIFY<code> clause added to the <code>ALTER TABLE<code> SQL statement.
+A non-partitioned table can be converted to a partitioned table with a <code>MODIFY</code> clause added to the <code>ALTER TABLE</code> SQL statement.
 
-In addition, the keyword <code>ONLINE<code> can be specified, enabling concurrent DML operations while conversion in ongoing.
+In addition, the keyword <code>ONLINE</code> can be specified, enabling concurrent DML operations while conversion in ongoing.
 
-Conversion to a monthly range-partitioned table from today using the <code>ONLINE<code> keyword.
+Conversion to a monthly range-partitioned table from today using the <code>ONLINE</code> keyword.
 
 ```SQL
 
