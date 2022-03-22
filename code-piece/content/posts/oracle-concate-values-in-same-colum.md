@@ -7,11 +7,11 @@ draft: false
 Concatenate values in same column with comma delimited. 
 
  - Input
-   name
-   ----
-   Teemo
-   Malphite
-   Sona
+   <p>|name|</p>
+   <p>-----</p>
+   <p>Teemo</p>
+   <p>Malphite</p>
+   <p>Sona</p>
 
 -  Output: Teemo,Malphite,Sona
 
@@ -20,5 +20,6 @@ Concatenate values in same column with comma delimited.
 SELECT LISTAGG(column_name, ',') FROM table_name;
 
 ```
+
 
 
