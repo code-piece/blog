@@ -33,6 +33,7 @@ draft: false
  <tr><td>2</td><td>Caitlyn</td><td>25</td></tr>
  <tr><td>3</td><td>Soraka</td><td>28</td></tr>
  </table>
+<br/>
 
  ```SQL
 SELECT
