@@ -6,14 +6,16 @@ draft: false
 
 Concatenate values in same column with comma delimited. 
 
- - Input
-   <p>|name|</p>
-   <p>-----</p>
-   <p>Teemo</p>
-   <p>Malphite</p>
-   <p>Sona</p>
+ - <b>Input</b>
 
--  Output: Teemo,Malphite,Sona
+   <table>
+   <tr><th>column name</th></tr>
+   <tr><td>Teemo</td></tr>
+   <tr><td>Malphite</td></tr>
+   <tr><td>Sona</td></tr>
+   </table>
+
+-  <b>Output</b>: <code>Teemo,Malphite,Sona</code>
 
 ```SQL
 
